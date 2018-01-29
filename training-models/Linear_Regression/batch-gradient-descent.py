@@ -2,10 +2,10 @@ import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 
-initial_X = 2 * np.random.rand(300, 1)
-y = 3 + 1.5 * initial_X + np.random.rand(300, 1)
+initial_X = 2 * np.random.rand(400, 1)
+y = 3 + 1.5 * initial_X + np.random.rand(400, 1)
 
-X = np.c_[np.ones((300, 1)), initial_X]
+X = np.c_[np.ones((400, 1)), initial_X]
 X = np.matrix(X)
 y = np.matrix(y)
 
